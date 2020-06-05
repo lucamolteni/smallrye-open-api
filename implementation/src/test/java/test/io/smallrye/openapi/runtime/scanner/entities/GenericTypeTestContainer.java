@@ -17,6 +17,7 @@ package test.io.smallrye.openapi.runtime.scanner.entities;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.Period;
 import java.util.Date;
 
 /**
@@ -40,6 +41,9 @@ public class GenericTypeTestContainer {
 
     // TODO: Type containing a variety of collections and maps.
     GenericFieldTestContainer<String, Duration> durationContainer;
+
+    // TODO: Type containing a variety of collections and maps.
+    GenericFieldTestContainer<String, Period> periodContainer;
 
     // Type containing fields with overridden names.
     FieldNameOverride overriddenNames;

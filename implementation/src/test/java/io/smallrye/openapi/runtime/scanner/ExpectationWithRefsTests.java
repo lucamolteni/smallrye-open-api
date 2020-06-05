@@ -132,6 +132,11 @@ public class ExpectationWithRefsTests extends OpenApiDataObjectScannerTestBase {
     }
 
     @Test
+    public void periodContainer() throws IOException, JSONException {
+        testAssertion(GenericTypeTestContainer.class, "periodContainer", "refsEnabled.period.fields.expected.json");
+    }
+
+    @Test
     public void fieldNameOverrideWithRefTest() throws IOException, JSONException {
         testAssertion(GenericTypeTestContainer.class, "overriddenNames",
                 "refsEnabled.generic.fields.overriddenNames.expected.json");
