@@ -34,12 +34,14 @@
             "type": "array",
             "items": {
               "format": "period",
-              "type": "string"
+              "type": "string",
+              "example" : "P1M"
             }
           },
           "genericFieldK": {
             "format": "period",
-            "type": "string"
+            "type": "string",
+            "example" : "P1M"
           },
           "mapOfKToFoo": {
             "type": "object",
@@ -51,7 +53,8 @@
             "type": "object",
             "additionalProperties": {
               "format": "period",
-              "type": "string"
+              "type": "string",
+              "example" : "P1M"
             }
           }
         }

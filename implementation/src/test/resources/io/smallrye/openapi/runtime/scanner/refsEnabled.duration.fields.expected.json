@@ -34,12 +34,14 @@
             "type": "array",
             "items": {
               "format": "duration",
-              "type": "string"
+              "type": "string",
+              "example" : "PT32S"
             }
           },
           "genericFieldK": {
             "format": "duration",
-            "type": "string"
+            "type": "string",
+            "example" : "PT32S"
           },
           "mapOfKToFoo": {
             "type": "object",
@@ -51,7 +53,8 @@
             "type": "object",
             "additionalProperties": {
               "format": "duration",
-              "type": "string"
+              "type": "string",
+              "example" : "PT32S"
             }
           }
         }
