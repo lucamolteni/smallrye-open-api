@@ -80,7 +80,8 @@ public class TypeUtil {
     private static final TypeWithFormat DATE_FORMAT = TypeWithFormat.of(SchemaType.STRING).format(DataFormat.DATE).build();
     private static final TypeWithFormat DATE_TIME_FORMAT = TypeWithFormat.of(SchemaType.STRING).format(DataFormat.DATE_TIME)
             .build();
-    private static final TypeWithFormat DURATION_FORMAT = TypeWithFormat.of(SchemaType.STRING).format(DataFormat.DURATION).build();
+    private static final TypeWithFormat DURATION_FORMAT = TypeWithFormat.of(SchemaType.STRING).format(DataFormat.DURATION)
+            .build();
     private static final TypeWithFormat PERIOD_FORMAT = TypeWithFormat.of(SchemaType.STRING).format(DataFormat.PERIOD).build();
     private static final TypeWithFormat TIME_FORMAT = TypeWithFormat.of(SchemaType.STRING).format(DataFormat.TIME)
             .externalDocumentation("As defined by 'full-time' in RFC3339",
